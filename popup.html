@@ -1,20 +1,30 @@
   <!DOCTYPE html>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <html>
     <head>
       <style>
         body{
-          width: 40px;
+          width: 85px;
         }
         button {
           height: 40px;
           width: 40px;
-          outline: none;
+          background-color: #8fc550;
+          border-radius: 5px;
+          border: 1px black;
+        }
+        button:hover {
+          background-color:#6aa228; 
         }
       </style>
     </head>
     <body>
-      <button id="down">Down</button>
-      <button id="up">Up</button>
+        <button  id="up"><i class="material-icons">
+            arrow_upward
+            </i></button>
+      <button  id="down"><i class="material-icons">
+          arrow_downward
+          </i></button>
       <script src="popup.js"></script>
     </body>
   </html>
